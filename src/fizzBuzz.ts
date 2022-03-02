@@ -26,7 +26,7 @@ function fizzBuzz(numbers: Array<number>): Array<number> {
   return fizzBuzzArray;
 }
 
-function isFizzBuzz(n) {
+function isFizzBuzz(n: any) {
   if (n % 3 === 0 && n % 5 === 0) {
     return "fizzBuzz";
   } else if (n % 5 === 0) {
